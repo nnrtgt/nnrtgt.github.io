@@ -1,0 +1,67 @@
+body .md-header{
+  background-color: #cc0000;
+}
+
+.md-header .md-header__button.md-logo img, .md-header__button.md-logo svg{
+  width: 35px;
+  height: 35px;
+}
+.md-header .md-header__title{
+  font-size: 18px;
+  margin-left: 0px;
+  font-weight: 500;
+}
+
+body .md-tabs{
+  background-color: #b10505;
+}
+
+body[data-md-color-scheme="default"] .md-container{
+  background-color: #eff3f9;
+}
+
+body[data-md-color-scheme="default"]  .md-container .md-typeset a{
+  color: #cc0000;
+}
+
+body[data-md-color-scheme="slate"] .md-container{
+  background-color: #2e303e;
+}
+
+body[data-md-color-scheme="slate"]  .md-container .md-typeset a{
+  color: #ff6868;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset code,body[data-md-color-scheme="slate"] .md-typeset kbd,body[data-md-color-scheme="slate"] .md-typeset pre{
+  background-color: #21222c;
+}
+
+body[data-md-color-scheme="default"] .md-typeset code,body[data-md-color-scheme="default"] .md-typeset kbd,body[data-md-color-scheme="default"] .md-typeset pre{
+  background-color: #ffffff;
+}
+
+body[data-md-color-scheme="default"] .md-nav__link:focus, .md-nav__link:hover,
+body[data-md-color-scheme="default"] .md-nav__item .md-nav__link--active ,
+body[data-md-color-scheme="default"] .md-search-result mark,
+body[data-md-color-scheme="default"] .md-search-result__more summary{
+  color: #cc0000;
+}
+
+body[data-md-color-scheme="default"] .md-nav__item--nested>.md-nav__link{
+font-weight:bold;
+}
+
+
+body[data-md-color-scheme="slate"] .md-nav__link:focus, .md-nav__link:hover,
+body[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active,
+body[data-md-color-scheme="slate"] .md-search-result mark,
+body[data-md-color-scheme="slate"] .md-search-result__more summary{
+  color: #ff6868;
+}
+
+.md-typeset h3{
+ font-weight: 600;
+}
+.md-typeset h1, .md-typeset h2{
+ font-weight: 400;
+}
